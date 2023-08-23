@@ -1,0 +1,111 @@
+$font: Arial, Helvetica, sans-serif;
+$border: 1px black solid;
+$borderLight: 1px lightgray solid;
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 330px;
+    background: #ffffff;
+    border: $border;
+    border-radius: 10px;
+    gap:8px;
+    .form__header-section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        .form__header-section__title{
+            text-align: start;
+            font-family: $font;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .form__header-section__closer{
+            background-color: rgb(238, 239, 241);
+            padding: 2px;
+            width: 12px;
+            height: 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            &:hover{
+                background-color: rgb(214, 215, 218);
+            }
+
+        }
+
+    }
+    .entering-information-block{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        .input-section{
+            display: flex;
+            flex-direction: row;
+            gap:4px;
+            align-items: center;
+            img{
+                background-size: cover;
+                width:20px;
+                height:12px;
+            }
+            .entering-information-block_input{
+                width: 94%;
+                 height: 28px;
+                 border: $borderLight;
+                 border-radius: 5px;
+                 outline-color: black;
+                 padding: 2px 8px;
+                 color: rgb(128, 128, 128);
+             }
+        }
+        
+    }
+    .title{
+        color:rgb(164, 160, 160);
+        font-family: $font;
+        font-size: 10px;
+        font-weight: 200;
+        height: 8px;
+    }
+    .private-card-information{
+        display: flex;
+        align-items: center;
+        width: 90%;
+        gap: 20px;
+        .entering-information-block{
+            width: 46%;  
+        }
+    }
+    .form__footer-section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin-top: 20px;
+        .button-section{
+            display: flex;
+            gap:16px;
+            .button{
+                width: 70px;
+                height: 30px;
+                border: $border;
+                border-radius: 15px;
+                padding:4px;
+                background-color: white;
+                cursor: pointer;
+                &:hover{
+                    background-color: black;
+                    color: white;
+                    width: 90px;
+        
+                }
+             }    
+    }
+   
+    
+    }    
+}

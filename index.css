@@ -1,0 +1,103 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  height: 330px;
+  background: #ffffff;
+  border: 1px black solid;
+  border-radius: 10px;
+  gap: 8px;
+}
+.form .form__header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+.form .form__header-section .form__header-section__title {
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.form .form__header-section .form__header-section__closer {
+  background-color: rgb(238, 239, 241);
+  padding: 2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.form .form__header-section .form__header-section__closer:hover {
+  background-color: rgb(214, 215, 218);
+}
+.form .entering-information-block {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.form .entering-information-block .input-section {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+}
+.form .entering-information-block .input-section img {
+  background-size: cover;
+  width: 20px;
+  height: 12px;
+}
+.form .entering-information-block .input-section .entering-information-block_input {
+  width: 94%;
+  height: 28px;
+  border: 1px lightgray solid;
+  border-radius: 5px;
+  outline-color: black;
+  padding: 2px 8px;
+  color: rgb(128, 128, 128);
+}
+.form .title {
+  color: rgb(164, 160, 160);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: 200;
+  height: 8px;
+}
+.form .private-card-information {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  gap: 20px;
+}
+.form .private-card-information .entering-information-block {
+  width: 46%;
+}
+.form .form__footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-top: 20px;
+}
+.form .form__footer-section .button-section {
+  display: flex;
+  gap: 16px;
+}
+.form .form__footer-section .button-section .button {
+  width: 70px;
+  height: 30px;
+  border: 1px black solid;
+  border-radius: 15px;
+  padding: 4px;
+  background-color: white;
+  cursor: pointer;
+}
+.form .form__footer-section .button-section .button:hover {
+  background-color: black;
+  color: white;
+  width: 90px;
+}
+
+/*# sourceMappingURL=index.css.map */
